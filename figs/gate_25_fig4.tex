@@ -1,0 +1,16 @@
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\normalsize]
+\draw [](5.75,15) to[short, -o] (3.75,15);
+\draw [](6.25,15) to[short, -o] (13.25,15);
+\draw (11,15) to[R] (11,12);
+\draw [](11,12) to[short, -o] (13.5,12);
+\node [font=\normalsize] at (6,15.5) {D1};
+\node [font=\normalsize] at (6,11.75) {D2};
+\node [font=\normalsize] at (11.5,13.5) {R};
+\node [font=\normalsize] at (3.75,13.5) {Vin};
+\node [font=\normalsize] at (13.5,13.5) {Vo=0};
+\draw[] (11,12) to[short] (6.25,12);
+\draw [](5.75,12) to[short, -o] (3.75,12);
+\draw[<-, thick] (6.75,14) arc (90:-90:0.5) node[midway, left] {$$};;
+\end{circuitikz}
+

@@ -1,0 +1,16 @@
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [, line width=0.5pt](6.25,13.75) to[D,l={ \large $D1$}] (9,13.75);
+\draw [, line width=0.5pt](9,13.75) to[short, -o] (14.25,13.75);
+\draw [, line width=0.5pt](6.25,13.75) to[short, -o] (5.25,13.75);
+\draw [, line width=0.5pt](11.75,13.75) to[R] (11.75,10.5);
+\draw [, line width=0.5pt](8.5,10.5) to[short, -o] (14.25,10.5);
+\draw [, line width=0.5pt](8.5,10.5) to[D,l={ \large $D2$}] (7.25,10.5);
+\draw [, line width=0.5pt](7.25,10.5) to[short, -o] (5.25,10.5);
+\node [font=\large] at (4.75,12.5) {Vin};
+\node [font=\large] at (14.25,12.25) {Vout};
+\node [font=\large] at (4.75,13.75) {+};
+\node [font=\large] at (14.75,13.75) {+};
+\node [font=\large] at (4.75,10.5) {-};
+\node [font=\large] at (14.5,10.5) {-};
+\end{circuitikz}
